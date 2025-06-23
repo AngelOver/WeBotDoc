@@ -1,0 +1,399 @@
+<template><div><blockquote>
+<p>🌌 在搜广推的浩瀚宇宙中，优质资源如同闪亮的星辰，指引着我们前进的方向。这里汇聚了经典论文、权威书籍、专家博客和优质课程，是你探索搜广推世界的知识宝库！</p>
+</blockquote>
+<h2 id="📚-经典书籍推荐" tabindex="-1"><a class="header-anchor" href="#📚-经典书籍推荐"><span>📚 经典书籍推荐</span></a></h2>
+<blockquote>
+<p>📖 好书如良师益友，在搜广推的学习路上为你指点迷津。这里精选了领域内的经典著作，从入门到进阶，助你构建扎实的理论基础！</p>
+</blockquote>
+<h3 id="🎯-推荐系统经典" tabindex="-1"><a class="header-anchor" href="#🎯-推荐系统经典"><span>🎯 推荐系统经典</span></a></h3>
+<CardGrid>
+<ImageCard 
+  image="/img/深度学习推荐系统2.0.jpg"
+  title="深度学习推荐系统2.0"
+  description="深度学习和大模型技术在推荐系统领域掀起了一场技术革命，本书从深度学习推荐模型、Embedding技术、大模型、AIGC、模型工程实现、业界前沿实践等几个方面介绍了这场技术革命中的主流技术要点。《深度学习推荐系统2.0（全彩）》既适合推荐系统、计算广告和搜索领域的从业者阅读，也适合人工智能相关专业的本科生、研究生、博士生阅读，帮助建立深度学习推荐系统的技术框架。通过学习前沿案例，读者可加强深度学习理论与推荐系统工程实践的融合能力。"
+  href="https://book.douban.com/subject/37286473/"
+  author="王喆"
+  date="2025/04"
+  />
+  <ImageCard 
+  image="/img/推荐系统实践.jpg"
+  title="推荐系统实践"
+  description="随着信息技术和互联网的发展，人们逐渐从信息匮乏的时代走入了信息过载（information overload）的时代 。在这个时代，无论是信息消费者还是信息生产者都遇到了很大的挑战：对于信息消费者，从大量信息中找到自己感兴趣的信息是一件非常困难的事情；对于信息生产者，让自己生产的信息脱颖而出，受到广大用户的关注，也是一件非常困难的事情。推荐系统就是解决这一矛盾的重要工具。推荐系统的任务就是联系用户和信息，一方面帮助用户发现对自己有价值的信息，另一方面让信息能够展现在对它感兴趣的用户面前，从而实现信息消费者和信息生产者的双赢。"
+  href="https://book.douban.com/subject/10769749/"
+  author="项亮"
+  date="2012/06/01"
+  />
+<ImageCard 
+  image="/img/互联网大厂推荐算法实战.jpg"
+  title="互联网大厂推荐算法实战"
+  description="互联网大厂推荐算法实战》介绍了互联网大厂当前采用的一些前沿推荐算法，并梳理了这些算法背后的思想脉络与技术框架。《互联网大厂推荐算法实战》总计10章，内容涵盖了推荐系统的基础知识、推荐系统中的特征工程、推荐系统中的Embedding、推荐系统的各组成模块（包括召回、粗排、精排与重排）所使用的算法技术、推荐算法实践中经常会遇到的难题以及应对之道（其中涉及多任务推荐、多场景推荐、新用户冷启动、新物料冷启动、评估模型效果、定位并解决问题等），最后还用一章的篇幅介绍了推荐算法工程师在工作、学习、面试时应该采取的做法。《互联网大厂推荐算法实战》既适合推荐系统、计算广告、个性化搜索领域的从业人员阅读，也适合希望从事互联网算法工作的在校学生阅读。"
+  href="https://book.douban.com/subject/36701755"
+  author="赵传霖"
+  date="2024/01"
+  /> 
+<ImageCard 
+  image="/img/动手学推荐系统.jpg"
+  title="动手学推荐系统"
+  description="本书从理论结合实践编程来学习推荐系统。由浅入深，先基础后进阶，先理论后实践，先主流后推导。第1章较为简单，仅初步带领大家了解什么是推荐系统及推荐系统的简史。第2章到第5章介绍的是主流的推荐算法及推荐算法的推导过程，这部分是本书的核心，每个算法都描述的非常详细且有具体代码帮助大家理解，深度学习的框架将采用PyTorch。第6章介绍的是商业及推荐系统的组成结构，第7章系统地介绍了推荐系统的评估指标及方式。第8章则介绍整个推荐工程的生命周期。第6~8章可随时抽取出来提前看。本书配套示例代码及微课视频，帮助读者快速入门推荐算法及系统。本书可作为高等院校、科研机构或从事推荐系统工作的工程师的参考书籍，也可作为高年级本科生和研究生的学习参考书籍。"
+  href="https://book.douban.com/subject/36160038"
+  author="於方仁"
+  date="2022/11"
+  />
+</CardGrid>
+<h3 id="广告算法经典" tabindex="-1"><a class="header-anchor" href="#广告算法经典"><span>广告算法经典</span></a></h3>
+<CardGrid>
+<ImageCard 
+  image="/img/计算广告.jpg"
+  title="计算广告"
+  description="计算广告是一项新兴的研究课题，它涉及大规模搜索和文本分析、信息获取、统计模型、机器学习、分类、优化以及微观经济学等诸多领域的知识。本书从实践出发，系统地介绍计算广告的产品、问题、系统和算法，并且从工业界的视角对这一领域进行具体技术的深入剖析。本书立足于广告市场的根本问题，从计算广告各个阶段所遇到的市场挑战出发，以广告系统业务形态的需求和变化为主线，依次介绍合约广告系统、竞价广告系统、程序化交易市场等重要课题，并对计算广告涉及的关键技术和算法做深入的探讨，包括深度学习的基础方法论及其在计算广告中的应用，这一版加入了竞价广告的产品脉络、计算分工带来的产品方向的演进和智能投放的产品原理等内容。无论是互联网公司商业化部门的产品技术人员，还是对个性化系统、大数据变现或交易有兴趣的产品技术人员，传统企业互联网化进程的决策者，传统广告业务的从业者，互联网创业者，计算机相关专业研究生，都会从阅读本书中受益匪浅。"
+  href="https://book.douban.com/subject/36086460/"
+  author="刘鹏 / 王超"
+  date="2022/08"
+  />
+</CardGrid>
+<h2 id="🎓-优质博客、在线课程、技术社区" tabindex="-1"><a class="header-anchor" href="#🎓-优质博客、在线课程、技术社区"><span>🎓 优质博客、在线课程、技术社区</span></a></h2>
+<blockquote>
+<p>🌟 在搜广推的学习路上，站在巨人的肩膀上才能看得更远。这里精选了业界顶尖的博客、课程和技术社区，助你快速成长！</p>
+</blockquote>
+<h3 id="🎓-知名专家博客" tabindex="-1"><a class="header-anchor" href="#🎓-知名专家博客"><span>🎓 知名专家博客</span></a></h3>
+<h4 id="推荐系统领域专家" tabindex="-1"><a class="header-anchor" href="#推荐系统领域专家"><span>推荐系统领域专家</span></a></h4>
+<CardGrid>
+<LinkCard 
+  title="王喆" 
+  icon="simple-icons:zhihu"
+  href="https://www.zhihu.com/people/wang-zhe-58"
+  description="前Roku推荐系统负责人，《深度学习推荐系统》作者">
+</LinkCard>
+<LinkCard 
+  title="石塔西" 
+  icon="simple-icons:zhihu"
+  href="https://www.zhihu.com/people/si-ta-xi"
+  description="推荐系统算法专家，知乎推荐系统领域优质答主">
+</LinkCard>
+</CardGrid>
+<h3 id="📚-优质在线课程与教程" tabindex="-1"><a class="header-anchor" href="#📚-优质在线课程与教程"><span>📚 优质在线课程与教程</span></a></h3>
+<h4 id="开源教程项目" tabindex="-1"><a class="header-anchor" href="#开源教程项目"><span>开源教程项目</span></a></h4>
+<CardGrid>
+<LinkCard
+  title="王树森的公开课"
+  icon="simple-icons:bilibili"
+  herd="https://space.bilibili.com/1369507485"
+  description="涵盖搜索引擎技术和推荐算法系统的视频公开课">
+</LinkCard>
+<LinkCard 
+  title="Fun-Rec" 
+  icon="simple-icons:github"
+  href="https://datawhalechina.github.io/fun-rec/#/"
+  description="Datawhale开源的推荐系统入门教程，从基础到进阶全覆盖">
+</LinkCard>
+</CardGrid>
+<h4 id="开源算法库" tabindex="-1"><a class="header-anchor" href="#开源算法库"><span>开源算法库</span></a></h4>
+<CardGrid>
+<LinkCard 
+  title="Microsoft Recommenders" 
+  icon="simple-icons:microsoft"
+  href="https://github.com/recommenders-team/recommenders"
+  description="微软开源的推荐系统最佳实践库，涵盖完整的推荐系统开发流程">
+</LinkCard>
+<LinkCard 
+  title="Torch-RecHub" 
+  icon="simple-icons:pytorch"
+  href="https://github.com/datawhalechina/torch-rechub"
+  description="基于PyTorch的推荐系统算法库，提供经典和前沿推荐算法实现">
+</LinkCard>
+<LinkCard 
+  title="RecBole" 
+  icon="simple-icons:github"
+  href="https://github.com/RUCAIBox/RecBole"
+  description="中国人民大学开源的统一推荐系统库">
+</LinkCard>
+<LinkCard 
+  title="DeepCTR" 
+  icon="simple-icons:tensorflow"
+  href="https://github.com/shenweichen/DeepCTR"
+  description="基于TensorFlow的深度CTR预估算法库">
+</LinkCard>
+<LinkCard 
+  title="DeepMatch" 
+  icon="simple-icons:tensorflow"
+  href="https://github.com/shenweichen/DeepMatch"
+  description="基于TensorFlow的深度匹配和召回算法库">
+</LinkCard>
+<LinkCard 
+  title="EasyRec" 
+  icon="simple-icons:alibabadotcom"
+  href="https://github.com/alibaba/EasyRec"
+  description="阿里云开源的推荐算法平台，支持工业级推荐系统开发">
+</LinkCard>
+</CardGrid>
+<h3 id="🏛️-技术博客平台" tabindex="-1"><a class="header-anchor" href="#🏛️-技术博客平台"><span>🏛️ 技术博客平台</span></a></h3>
+<LinkCard 
+  title="机器之心" 
+  icon="simple-icons:medium"
+  href="https://www.jiqizhixin.com/"
+  description="专业的人工智能媒体和产业服务平台">
+</LinkCard>
+<h3 id="🚀-国际知名技术博客" tabindex="-1"><a class="header-anchor" href="#🚀-国际知名技术博客"><span>🚀 国际知名技术博客</span></a></h3>
+<h4 id="工业界技术博客" tabindex="-1"><a class="header-anchor" href="#工业界技术博客"><span>工业界技术博客</span></a></h4>
+<CardGrid>
+<LinkCard 
+  title="Netflix Tech Blog" 
+  icon="simple-icons:netflix"
+  href="https://netflixtechblog.com/"
+  description="Netflix技术团队官方博客，推荐系统工业实践的标杆">
+</LinkCard>
+<LinkCard 
+  title="Uber Engineering" 
+  icon="simple-icons:uber"
+  href="https://eng.uber.com/"
+  description="Uber工程团队技术博客，机器学习与推荐系统实践">
+</LinkCard>
+<LinkCard 
+  title="Airbnb Tech" 
+  icon="simple-icons:airbnb"
+  href="https://medium.com/airbnb-engineering"
+  description="Airbnb技术团队在Medium上的技术分享">
+</LinkCard>
+</CardGrid>
+<h2 id="📄-经典-前沿论文清单" tabindex="-1"><a class="header-anchor" href="#📄-经典-前沿论文清单"><span>📄 经典/前沿论文清单</span></a></h2>
+<blockquote>
+<p>📑 论文是技术创新的源泉，这里将汇聚搜广推领域的经典论文和前沿研究，按照不同类别进行分类整理。</p>
+</blockquote>
+<h3 id="🎯-推荐系统经典论文" tabindex="-1"><a class="header-anchor" href="#🎯-推荐系统经典论文"><span>🎯 推荐系统经典论文</span></a></h3>
+<div style="margin:16px 0;display:flex;align-items:center;justify-content:center;gap:16px"><table>
+<thead>
+<tr>
+<th>模型简称</th>
+<th>标签</th>
+<th>机构</th>
+<th>会议</th>
+<th>年份</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://arxiv.org/abs/1706.06978" target="_blank" rel="noopener noreferrer">DIN</a></td>
+<td>排序,序列建模</td>
+<td>阿里巴巴</td>
+<td>KDD</td>
+<td>2018</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1804.07931" target="_blank" rel="noopener noreferrer">ESMM</a></td>
+<td>排序</td>
+<td>阿里巴巴</td>
+<td>SIGIR</td>
+<td>2018</td>
+</tr>
+<tr>
+<td><a href="https://research.google/pubs/pub48840/" target="_blank" rel="noopener noreferrer">Youtube-SBC</a></td>
+<td>召回</td>
+<td>谷歌</td>
+<td>RecSys</td>
+<td>2019</td>
+</tr>
+<tr>
+<td><a href="https://posenhuang.github.io/papers/cikm2013_DSSM_fullversion.pdf" target="_blank" rel="noopener noreferrer">DSSM</a></td>
+<td>召回</td>
+<td>微软</td>
+<td>CIKM</td>
+<td>2013</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/2203.06801v1.pdf" target="_blank" rel="noopener noreferrer">MetaBalance</a></td>
+<td>其他</td>
+<td>Facebook</td>
+<td>www</td>
+<td>2022</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/1606.07792.pdf" target="_blank" rel="noopener noreferrer">Wide &amp; Deep</a></td>
+<td>排序</td>
+<td>谷歌</td>
+<td>DLRS</td>
+<td>2016</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2006.11632" target="_blank" rel="noopener noreferrer">DSSM-Facebook</a></td>
+<td>召回</td>
+<td>Facebook</td>
+<td>KDD</td>
+<td>2020</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1703.04247" target="_blank" rel="noopener noreferrer">DeepFM</a></td>
+<td>排序</td>
+<td>华为</td>
+<td>IJCAI</td>
+<td>2017</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1808.09781" target="_blank" rel="noopener noreferrer">SasRec</a></td>
+<td>召回</td>
+<td>UCSD</td>
+<td>ICDM</td>
+<td>2018</td>
+</tr>
+<tr>
+<td><a href="https://dl.acm.org/doi/abs/10.1145/3383313.3412236" target="_blank" rel="noopener noreferrer">PLE</a></td>
+<td>排序</td>
+<td>腾讯</td>
+<td>RecSys</td>
+<td>2020</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2105.08489" target="_blank" rel="noopener noreferrer">AITM</a></td>
+<td>排序</td>
+<td>美团</td>
+<td>KDD</td>
+<td>2021</td>
+</tr>
+<tr>
+<td><a href="https://link.springer.com/content/pdf/10.1023/A:1007379606734.pdf" target="_blank" rel="noopener noreferrer">Shared-Bottom</a></td>
+<td>排序</td>
+<td>CMU</td>
+<td>ML</td>
+<td>1997</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1708.05123" target="_blank" rel="noopener noreferrer">DCN</a></td>
+<td>排序</td>
+<td>谷歌,斯坦福</td>
+<td>AKDD</td>
+<td>2017</td>
+</tr>
+<tr>
+<td><a href="https://dl.acm.org/doi/10.1145/2959100.2959190" target="_blank" rel="noopener noreferrer">Youtube-DNN</a></td>
+<td>召回</td>
+<td>谷歌</td>
+<td>RecSys</td>
+<td>2016</td>
+</tr>
+<tr>
+<td><a href="https://dl.acm.org/doi/pdf/10.1145/3219819.3220007" target="_blank" rel="noopener noreferrer">MMOE</a></td>
+<td>排序</td>
+<td>谷歌</td>
+<td>KDD</td>
+<td>2018</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1511.06939" target="_blank" rel="noopener noreferrer">GRU4Rec</a></td>
+<td>召回,序列建模</td>
+<td>腾讯</td>
+<td>KDD</td>
+<td>2022</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/1808.09781.pdf" target="_blank" rel="noopener noreferrer">SASRec</a></td>
+<td>召回,序列建模</td>
+<td>UC</td>
+<td>ICDM</td>
+<td>2018</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/2102.09267.pdf" target="_blank" rel="noopener noreferrer">SINE</a></td>
+<td>召回</td>
+<td>阿里巴巴</td>
+<td>WSDM</td>
+<td>2021</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/1905.06336.pdf" target="_blank" rel="noopener noreferrer">(FAT-)DeepFFM</a></td>
+<td>排序</td>
+<td>新浪</td>
+<td>arXiv</td>
+<td>2019</td>
+</tr>
+<tr>
+<td><a href="https://dl.acm.org/doi/10.1145/3219819.3219950" target="_blank" rel="noopener noreferrer">STAMP</a></td>
+<td>召回,序列建模</td>
+<td>电子科大</td>
+<td>KDD</td>
+<td>2018</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/1711.04725.pdf" target="_blank" rel="noopener noreferrer">NARM</a></td>
+<td>召回,序列建模</td>
+<td>京东,山东大学</td>
+<td>CIKM</td>
+<td>2017</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2008.13535" target="_blank" rel="noopener noreferrer">DCN_v2</a></td>
+<td>排序</td>
+<td>谷歌</td>
+<td>www</td>
+<td>2021</td>
+</tr>
+<tr>
+<td><a href="https://dlp-kdd.github.io/assets/pdf/DLP-KDD_2021_paper_12.pdf" target="_blank" rel="noopener noreferrer">EDCN</a></td>
+<td>排序</td>
+<td>华为</td>
+<td>KDD</td>
+<td>2021</td>
+</tr>
+<tr>
+<td><a href="https://dl.acm.org/doi/abs/10.1145/3298689.3347043" target="_blank" rel="noopener noreferrer">FiBiNet</a></td>
+<td>排序</td>
+<td>新浪</td>
+<td>RecSys</td>
+<td>2019</td>
+</tr>
+<tr>
+<td><a href="https://ojs.aaai.org/index.php/AAAI/article/view/4545" target="_blank" rel="noopener noreferrer">DIEN</a></td>
+<td>排序,序列建模</td>
+<td>阿里巴巴</td>
+<td>AAAI</td>
+<td>2019</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1905.06874v1" target="_blank" rel="noopener noreferrer">BST</a></td>
+<td>排序,序列建模</td>
+<td>阿里巴巴</td>
+<td>arXiv</td>
+<td>2019</td>
+</tr>
+</tbody>
+</table>
+</div><h2 id="🏆-顶级会议与期刊" tabindex="-1"><a class="header-anchor" href="#🏆-顶级会议与期刊"><span>🏆 顶级会议与期刊</span></a></h2>
+<blockquote>
+<p>📚 了解学术前沿，追踪最新研究成果的重要渠道。</p>
+</blockquote>
+<h3 id="🎯-推荐系统专业会议" tabindex="-1"><a class="header-anchor" href="#🎯-推荐系统专业会议"><span>🎯 推荐系统专业会议</span></a></h3>
+<CardGrid>
+<LinkCard 
+  title="ACM RecSys" 
+  icon="simple-icons:acm"
+  href="https://recsys.acm.org/"
+  description="推荐系统领域最权威的国际会议">
+</LinkCard>
+<LinkCard 
+  title="SIGIR" 
+  icon="simple-icons:acm"
+  href="https://sigir.org/"
+  description="信息检索领域顶级会议，涵盖搜索推荐">
+</LinkCard>
+</CardGrid>
+<h3 id="🤖-机器学习顶级会议" tabindex="-1"><a class="header-anchor" href="#🤖-机器学习顶级会议"><span>🤖 机器学习顶级会议</span></a></h3>
+<CardGrid>
+<LinkCard 
+  title="NeurIPS" 
+  icon="simple-icons:neurips"
+  href="https://neurips.cc/"
+  description="神经信息处理系统大会，机器学习顶级会议">
+</LinkCard>
+<LinkCard 
+  title="ICML" 
+  icon="simple-icons:icml"
+  href="https://icml.cc/"
+  description="国际机器学习大会">
+</LinkCard>
+<LinkCard 
+  title="KDD" 
+  icon="simple-icons:acm"
+  href="https://www.kdd.org/"
+  description="知识发现与数据挖掘大会">
+</LinkCard>
+</CardGrid></div></template>
+
+

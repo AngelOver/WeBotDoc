@@ -1,0 +1,69 @@
+name: 部署文档到 GitHub Pages
+
+on:
+  # 每当 push 到 main 分支时触发部署
+  push:
+    branches: [main]
+  # 手动触发部署
+  workflow_dispatch:
+
+# 设置 GITHUB_TOKEN 的权限，允许部署到 GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 只允许同时进行一次部署，跳过正在运行和最新队列之间的运行队列
+# 但是，不要取消正在进行的运行，因为我们希望让这些生产部署完成
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # 构建工作
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          # "最近更新时间" 等 git 日志相关信息，需要拉取全部提交记录
+          fetch-depth: 0
+
+      - name: 设置 npm
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: 安装依赖
+        run: npm install
+
+      - name: 构建 VuePress 站点
+        run: npm run docs:build
+
+      - name: 设置 Pages
+        uses: actions/configure-pages@v4
+
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vuepress/dist
+
+  # 部署工作
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
