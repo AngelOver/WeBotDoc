@@ -92,6 +92,10 @@ export default defineUserConfig({
           {
             text: '开发时常见问题',
             link: '/guide/pkst6v9y/'
+          },
+          {
+            text: '一键检测问题',
+            link: '/guide/diagnostic-issues/'
           }
         ]
       },
