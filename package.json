@@ -1,7 +1,7 @@
 {
-  "name": "docs.ncatbot.xyz",
+  "name": "docs.wechatbot",
   "version": "1.0.0",
-  "description": "NcatBot Docs",
+  "description": "WeChatBot智能微信聊天机器人文档",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
     "export-pdf": "press-export-pdf export docs",
     "concat-md": "node scripts/concat-md.js"
   },
-  "author": "Isaac",
+  "author": "iwyxdxl",
   "license": "ISC",
   "devDependencies": {
     "@condorhero/vuepress-plugin-export-pdf-v2": "^3.0.3",

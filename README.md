@@ -1,6 +1,13 @@
-# NcatBotDocs
+# WeChatBot文档
 
-本项目是 [NcatBot](https://github.com/liyihao1110/ncatbot) 的文档项目, 用于文档的编写和发布.
+本项目是 [WeChatBot](https://github.com/iwyxdxl/WeChatBot_WXAUTO_SE) 的文档项目, 用于文档的编写和发布.
+
+WeChatBot是一个智能微信聊天机器人，支持AI大模型接入，具有自动回复、图片识别、情绪表达等强大功能。
+
+## 官网访问
+
+- 文档网站：https://webot.v1chat.cc
+- 项目源码：https://github.com/iwyxdxl/WeChatBot_WXAUTO_SE
 
 ## Contribution
 
